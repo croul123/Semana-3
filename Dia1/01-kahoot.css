@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu, .resultados {
+    height: 100vh;
+    float: left;
+}
+
+.fix {
+    clear: both;
+}
+
+/* resultados*/
+
+.resultados {
+    width: calc(100% - 328px);
+    background-color: #46178f;
+}
+.resultados-header{
+    position: relative;
+}
+.header-titulo{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    font-size: 28px;
+}
+
+.header-icono{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.feedback-botton{
+    float: right;
+    border: none;
+    padding: 8px 8px ;
+    border-radius: 5px;
+    margin-right: 25px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border-bottom: 4px solid #aaa;
+    
+}
+
+.lista-contenedor{
+    list-style: none;
+    
+    padding: 0px 15%;
+}
+
+.lista-item{
+    
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+.item-nombre{
+    float: left;
+}
+.item-puntaje{
+    float: right;
+    font-weight: 800;
+}
+
+.resultados-lista{
+    margin-top: 200px;
+}
+
+.ganador{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+
+
+
+
+
+/*menu*/
+.menu-botones{
+    /*considerar colocar porcentajes*/
+    margin-top: 80px;
+}
+
+.menu {
+    width: 328px;
+    padding: 60px 40px 30px 40px;
+    position: relative;
+}
+
+.titulo-menu {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+.boton{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px 0 ;
+    border-radius: 5px;
+    margin: 25px 0;
+    color: #fafefe;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.exitoso{
+    background-color: #26890c;
+    border-bottom: 6px solid #1c6709 ;
+}
+.exitoso:hover{
+    background-color: #123609;
+    border-bottom: 3px solid rgb(74, 216, 61);
+}
+
+.primario {
+    background-color: #1368ce;
+}
+.parrafo-footer {
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 15px;
+}
+.spam-footer {
+    color: #46178f;
+    font-weight: 900;
+}
+.menu-footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px 40px 30px 40px ;
+}
