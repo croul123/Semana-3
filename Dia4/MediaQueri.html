@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--con content le estamos diciendo que nos de el tamaño real de la pántalla-->
+    <link rel="stylesheet" href="MediaQueri.css">
+    <title>Document</title>
+</head>
+<body>
+    <picture>
+        <!-- en surce, puedo colocar una regla media query para cambiar una imagen repecto al tamaño de pantalla-->
+        <source media="(max-widht: 480px)" srcset="http://placehold.it/100x50?text=M" />
+        <!-- En img, por defecto, elegire una imagen grande-->
+        <img src="http://placehold.it/500x500?text=Mi aplicacion" alt="">
+    </picture>    
+    
+    
+</body>
+</html>

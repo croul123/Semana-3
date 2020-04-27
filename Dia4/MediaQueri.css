@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: tomato;
+}
+
+/*@media ( condicion )*/
+/* all nos dice para todos los tipos de pantalla*/
+/* screen  para todas las pantallas de color*/
+/*print => para la misma pantalla peero, cuando 
+se envia a una impresoa para imprimir*/
+/*speech=> para cuando la pantalla sea leida por un lector de pantallas*/
+
+@media screen and (max-width:1024px) {
+    body{
+    background-color: #ecd186 ;}
+
+}
+
+
+@media screen and (max-width:768px) {
+    body{
+    background-color: #555555 ;}
+
+
+}
+@media screen and (max-width:320px) {
+    body{
+    background-color: #646bc2 ;}
+
+}

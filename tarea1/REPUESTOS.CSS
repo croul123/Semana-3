@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 133PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #D6D5DE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-image: url(./motorcycle-solid.svg);
+    background-repeat: no-repeat;
+}
+
+.busqueda {
+    border: 1PX solid #485B99;
+    background-color: white;
+    width: 50%;
+    height: 43px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+/*da color a la palabra busqueda*/
+
+input::placeholder {
+    color: #485B99;
+}
+
+.busqueda:hover {
+    box-shadow: #485B99 1px 1px;
+    
+    
+}
+
+.ingresar {
+    font-size: 20px;
+    width: 170px;
+    height: 43px;
+    border: 1PX solid #485B99;
+    background-color: white;
+    text-align: center;
+    padding-top: 3px;
+    color: #485B99;
+    border-radius: 10px;
+}
+
+.ingresar:hover {
+    transform: scale(1.01);
+    box-shadow: #485B99 1px 1px;
+}
+
+.registrarse {
+    font-size: 20px;
+    width: 170px;
+    height: 43px;
+    border: 1PX solid #485B99;
+    background-color: white;
+    text-align: center;
+    padding-top: 3px;
+    color: #485B99;
+    border-radius: 10px;
+}
+
+.registrarse:hover {
+    transform: scale(1.01);
+    box-shadow: #485B99 1px 1px;
+}
+
+/*mocificaciones en main*/
+
+nav {
+    
+    width: 100%;
+    height: 64PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #485B99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.MENU, .TIENDAS, .GALERIAS, .SOCIOS, .CONTACTANOS{
+    
+    color: #FFDC61;
+    background-color: #485B99;
+    border: none;
+}
+
+.MENU:hover, .TIENDAS:hover, .GALERIAS:hover, .SOCIOS:hover, .CONTACTANOS:hover{
+    transform: scale(1.02);
+    box-shadow: #FFDC61 0px 0px 1PX 1PX;
+}
+
+.IMAGENES{
+    width: 100%;
+    height: 800PX;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFDC61;
+    align-items: center;
+    
+}
+
+.IMAGEN0{
+    height: 585px ;
+    width: 780px;
+    background-image: url(./FONDOMOTO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30PX;
+    box-shadow: rgb(180, 157, 73) 0px 0px 2PX 3PX;
+    opacity: 0.81;
+
+}
+
+.REPUESTOS {
+    width: 50%;
+    height: 740PX;
+    
+       
+    
+}
+.PROMO {
+    width: 100%;
+    height: 50px;
+    
+    margin-top: 80PX;
+    text-align: center;
+    font-size: 50PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #485B99;
+}
+.REPU0{
+    width: 100%;
+    
+    display: flex;
+    position: relative;
+    
+    
+
+}
+.repu1{
+    width: 277px;
+    height: 197px;
+    
+    background-image: url(./REPUESTO1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30PX;
+    box-shadow: rgb(180, 157, 73) 0px 0px 2PX 3PX;
+    background-position: center;
+    position: absolute;
+    left: 100PX;
+    top: 54PX;
+    
+}
+.repu2{
+    width: 277px;
+    height: 197px;
+    
+    background-image: url(./REPU2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30PX;
+    box-shadow: rgb(180, 157, 73) 0px 0px 2PX 3PX;
+    background-position: center;
+    position: absolute;
+    right: 128PX;
+    top: 54PX;
+
+}
+.repu3{
+    width: 277px;
+    height: 197px;
+    
+    background-image: url(./REPU3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30PX;
+    box-shadow: rgb(180, 157, 73) 0px 0px 2PX 3PX;
+    background-position: center;
+    
+    position: absolute;
+    left: 100PX;
+    top:  328px;
+
+}
+.repu4{
+    width: 277px;
+    height: 197px;
+    
+    background-image: url(./REPU4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30PX;
+    box-shadow: rgb(180, 157, 73) 0px 0px 2PX 3PX;
+    background-position: center;
+    position: absolute;
+    right: 128PX;
+    top:  328px;
+
+}
+.repu1:hover, .repu2:hover, .repu3:hover, .repu4:hover{
+    transform: scale(1.02);
+    box-shadow: #FFDC61 0px 0px 1PX 1PX;
+}
+footer{
+
+}
+
+
